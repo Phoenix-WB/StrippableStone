@@ -1,0 +1,26 @@
+       modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="strippablestone"
+version="${file.jarVersion}"
+displayName="Strippable Stone"
+logoFile="cobblestone.png"
+credits="Join my server: https://discord.gg/2cjqwVJtXy"
+authors="Phoenix_WB"              
+description='''
+Strip your stone into cobblestone...
+'''
+
+[[dependencies.strippablestone]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.strippablestone]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
