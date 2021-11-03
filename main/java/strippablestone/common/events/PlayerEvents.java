@@ -33,6 +33,46 @@ public class PlayerEvents {
 					});
 				}
 			}
+			if(clickedBlock.getBlock() == Blocks.STONE_BRICKS)
+			{
+				event.getWorld().setBlockAndUpdate(blockpos, Blocks.STONE.defaultBlockState());
+				player.level.playSound(player, blockpos, SoundEvents.STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+				if (player != null) {
+					pickaxe.hurtAndBreak(1, player, (p_150686_) -> {
+						p_150686_.broadcastBreakEvent(event.getHand());
+					});
+				}
+			}
+			if(clickedBlock.getBlock() == Blocks.POLISHED_GRANITE)
+			{
+				event.getWorld().setBlockAndUpdate(blockpos, Blocks.GRANITE.defaultBlockState());
+				player.level.playSound(player, blockpos, SoundEvents.STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+				if (player != null) {
+					pickaxe.hurtAndBreak(1, player, (p_150686_) -> {
+						p_150686_.broadcastBreakEvent(event.getHand());
+					});
+				}
+			}
+			if(clickedBlock.getBlock() == Blocks.POLISHED_ANDESITE)
+			{
+				event.getWorld().setBlockAndUpdate(blockpos, Blocks.ANDESITE.defaultBlockState());
+				player.level.playSound(player, blockpos, SoundEvents.STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+				if (player != null) {
+					pickaxe.hurtAndBreak(1, player, (p_150686_) -> {
+						p_150686_.broadcastBreakEvent(event.getHand());
+					});
+				}
+			}
+			if(clickedBlock.getBlock() == Blocks.POLISHED_DIORITE)
+			{
+				event.getWorld().setBlockAndUpdate(blockpos, Blocks.DIORITE.defaultBlockState());
+				player.level.playSound(player, blockpos, SoundEvents.STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+				if (player != null) {
+					pickaxe.hurtAndBreak(1, player, (p_150686_) -> {
+						p_150686_.broadcastBreakEvent(event.getHand());
+					});
+				}
+			}
 		}
 	}
 }
