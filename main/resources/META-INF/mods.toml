@@ -1,9 +1,11 @@
        modLoader="javafml"
 loaderVersion="[36,)"
 license="All rights reserved"
+issueTrackerURL = "https://github.com/Phoenix-WB/StrippableStone/issues"
 [[mods]]
 modId="strippablestone"
 version="${file.jarVersion}"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/strippable-stone"
 displayName="Strippable Stone"
 logoFile="cobblestone.png"
 credits="Join my server: https://discord.gg/2cjqwVJtXy"
