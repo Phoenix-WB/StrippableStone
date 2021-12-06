@@ -1,0 +1,28 @@
+       modLoader="javafml"
+loaderVersion="[37,)"
+license="All rights reserved"
+issueTrackerURL = "https://github.com/Phoenix-WB/StrippableStone/issues"
+[[mods]]
+modId="strippablestone"
+version="${file.jarVersion}"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/strippable-stone"
+displayName="Strippable Stone"
+logoFile="cobblestone.png"
+credits="Join my server! https://discord.gg/2cjqwVJtXy"
+authors="Phoenix_WB"              
+description='''
+Strip all of your different types of stones!
+'''
+
+[[dependencies.strippablestone]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.strippablestone]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
