@@ -1,3 +1,5 @@
+[![CurseForge](https://cf.way2muchnoise.eu/versions/543660.svg)](https://www.curseforge.com/minecraft/mc-mods/strippable-stone)
+
 # StrippableStone
 Strip:
 
